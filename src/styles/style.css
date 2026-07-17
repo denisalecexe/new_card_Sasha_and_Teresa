@@ -1,0 +1,63 @@
+/* VARIABILI CSS */
+:root {
+    --first: #;
+    --second: #;
+    --third: #;
+    --border: #;
+    --header: #;
+}
+
+/* TAG UNIVERSALE */
+* {
+    cursor: url("/src/assets/cursor/red-black-cursor.cur"), auto;
+}
+
+/* ELEMENTI TAG */
+body {
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* ID */
+#header {
+    display: flex;
+    justify-content: center;
+}
+
+#cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+/* CLASS */
+.btn {
+    cursor: url("/src/assets/cursor/red-black-cursor.cur"), auto;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: Acme;
+    font-size: 18px;
+}
+
+/* @-RULES CSS */
+@font-face {
+    font-family: Acme;
+    src: url("/src/assets/font/Acme_Font/Acme-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: MajorMono;
+    src: url("/src/assets/font/Major_Mono_Display_Font/MajorMonoDisplay-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: RockSalt;
+    src: url("/src/assets/font/Rock_Salt_Font/RockSalt-Regular.ttf") format("truetype");
+}

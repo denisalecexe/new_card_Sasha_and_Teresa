@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/src/assets/favicon/Seikon-no-Qwaser-favicon.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="/src/styles/style.css">
     <title>Seikon no Qwaser Card</title>
 </head>
@@ -16,22 +14,24 @@
     </header>
 
     <!-- div contenitore che contiene tutte le card -->
-    <div class="container-card">
-        <!-- button che fa aprire e chiudere la card -->
-        <button>Open card of Alexander Nikolaevich Hell (Sasha)</button>
+    <div id="cardContainer">
         <!-- card del personaggio di Sasha -->
         <div class="card-sasha">
-            <img src="/src/assets/img/Sasha.png" alt="immagine che rappresenta Sasha">
+            <!-- button che fa aprire e chiudere la card -->
+            <button id="btnSasha" class="btn">Open card of Alexander Nikolaevich Hell (Sasha)</button>
+            <div id="infoSasha">
+                <img src="/src/assets/img/Sasha.png" alt="immagine che rappresenta Sasha">
+            </div>
         </div>
 
-        <!-- button che fa aprire e chiudere la card -->
-        <button>Open card of Teresa Beria</button>
-        <!-- card del personaggio di Teresa Beria -->
+        <!-- card del personaggio di Teresa -->
         <div class="card-teresa">
-            <img src="/src/assets/img/Teresa-Beria.png" alt="immagine che rappresenta Teresa">
-            div.text
+            <!-- button che fa aprire e chiudere la card -->
+            <button id="btnTeresa" class="btn">Open card of Teresa Beria</button>
+            <div id="infoTeresa">
+                <img src="/src/assets/img/Teresa-Beria.png" alt="immagine che rappresenta Teresa">
+            </div>
         </div>
-    </div>
 
     <!-- Collegamento a JavaScript -->
     <script src="js/script.js"></script>
