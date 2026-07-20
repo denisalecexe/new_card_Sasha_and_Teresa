@@ -7,11 +7,13 @@
 }
 
 /* TAG UNIVERSALE */
+/* stile per implementare il cursore */
 * {
     cursor: url("/src/assets/cursor/red-black-cursor.cur"), auto;
 }
 
 /* ELEMENTI TAG */
+/* stile base generale per l'intera pagine */
 body {
     box-sizing: border-box;
     margin: 0;
@@ -23,11 +25,13 @@ body {
 }
 
 /* ID */
+/* stile per l'header della pagina */
 #header {
     display: flex;
     justify-content: center;
 }
 
+/* stile per il contenitore delle due card */
 #cardContainer {
     display: flex;
     flex-direction: row;
@@ -38,6 +42,15 @@ body {
 }
 
 /* CLASS */
+/* stile per centrare entrambe le card */
+.card-sasha,
+.card-teresa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* stile per i btn */
 .btn {
     cursor: url("/src/assets/cursor/red-black-cursor.cur"), auto;
     border: 2px solid var(--border);
@@ -46,29 +59,58 @@ body {
     margin: 10px;
     padding: 15px;
     font-family: Acme;
-    font-size: 18px;
+    font-size: 26px;
 }
 
+/* stile generale per le card info */
 .card-info {
-    margin: 15px;
-    padding: 5px;
+    margin: 5px;
+    padding: 15px;
+    background: var(--second);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    width: 600px;
 }
 
-.card-info img {
-    filter: drop-shadow(0 0 6px var(--third));
+/* stile per l'header della card */
+.card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* stile per le immagini all'interno dell'header card */
+.sasha-img,
+.teresa-img {
+    filter: drop-shadow(4px 4px 5px var(--first));
+    margin: 10px;
+}
+
+.sasha-img {
+    width: 170px;
+}
+
+.teresa-img {
+    width: 280px;
+    clip-path: inset(2px);
+}
+
+/* stile per l'h3 all'interno dell'header card */
+.card-header h3 {
+    font-family: Acme;
+    font-size: 30px;
+    filter: drop-shadow(1px 1px 3px var(--first));
 }
 
 /* @-RULES CSS */
+/* Font ACME */
 @font-face {
     font-family: Acme;
     src: url("/src/assets/font/Acme_Font/Acme-Regular.ttf") format("truetype");
 }
 
-@font-face {
-    font-family: MajorMono;
-    src: url("/src/assets/font/Major_Mono_Display_Font/MajorMonoDisplay-Regular.ttf") format("truetype");
-}
-
+/* Font ROCK SALT */
 @font-face {
     font-family: RockSalt;
     src: url("/src/assets/font/Rock_Salt_Font/RockSalt-Regular.ttf") format("truetype");
