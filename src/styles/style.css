@@ -1,10 +1,9 @@
 /* VARIABILI CSS */
 :root {
-    --first: #;
-    --second: #;
-    --third: #;
-    --border: #;
-    --header: #;
+    --first: #0d0303;
+    --second: #d9040b;
+    --third: #a68046;
+    --border: #d9b471;
 }
 
 /* TAG UNIVERSALE */
@@ -20,6 +19,7 @@ body {
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
+    background: var(--first);
 }
 
 /* ID */
@@ -40,10 +40,22 @@ body {
 /* CLASS */
 .btn {
     cursor: url("/src/assets/cursor/red-black-cursor.cur"), auto;
+    border: 2px solid var(--border);
     border-radius: 10px;
+    background: var(--third);
+    margin: 10px;
     padding: 15px;
     font-family: Acme;
     font-size: 18px;
+}
+
+.card-info {
+    margin: 15px;
+    padding: 5px;
+}
+
+.card-info img {
+    filter: drop-shadow(0 0 6px var(--third));
 }
 
 /* @-RULES CSS */
