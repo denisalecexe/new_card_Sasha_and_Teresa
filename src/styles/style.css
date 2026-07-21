@@ -99,11 +99,18 @@ body {
 .card-body {
     font-family: RockSalt;
     font-size: 12px;
+    display: none;
 }
 
 .card-body dt {
     font-weight: bold;
     font-size: 18px;
+}
+
+/* classi da utilizzare per JS */
+/* per aprire e chiudere la card */
+.openCard {
+    display: block;
 }
 
 /* @-RULES CSS */
