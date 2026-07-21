@@ -48,8 +48,30 @@ body {
     padding: 15px;
     background: var(--second);
     border: 1px solid var(--border);
-    border-radius: 10px;
+    border-radius: 4px;
     width: 600px;
+    max-height: 500px;
+    overflow:auto;
+    /* stile per la scrollbar in Firefox */
+    scrollbar-width: thin;
+    scrollbar-color: var(--first) var(--third);
+}
+
+/* stile per la scrollbar in Chrome, Safari ed Edge */
+::-webkit-scrollbar {
+    width: 6px; /* larghezza della barra verticale */
+    height: 10px; /* altezza della barra orizzontale */
+}
+
+::-webkit-scrollbar-track {
+    background: var(--third); /* colore dello sfondo della traccia */
+    border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--first); /* colore dell'impugnatura */
+    border: 1px solid var(--border); /* border dell'impugnatura */
+    border-radius: 12px;
 }
 
 /* stile per l'header della card */
