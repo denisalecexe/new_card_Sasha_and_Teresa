@@ -46,8 +46,8 @@ Il sito presenta le schede di **Alexander Nikolaevich Hell (Sasha)** e **Teresa 
 │   │   └── js/
 │   │   │   └── script.js
 │   │   ├── index.html
-│   │   ├── LICENSE
-│   │   └──README.md
+│   ├── LICENSE
+│   └──README.md
 ```
 
 ---
