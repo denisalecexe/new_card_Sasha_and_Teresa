@@ -24,7 +24,7 @@ Il sito presenta le schede di **Alexander Nikolaevich Hell (Sasha)** e **Teresa 
 ## Struttura del Progetto
 
 ```text
-├──new_card_Sasha_and_Teresa
+├── new_card_Sasha_and_Teresa
 │   ├── src/
 │   │   ├── assets/
 │   │   │   ├── cursor/
@@ -45,9 +45,9 @@ Il sito presenta le schede di **Alexander Nikolaevich Hell (Sasha)** e **Teresa 
 │   │   │   └── style.css
 │   │   └── js/
 │   │   │   └── script.js
-├── index.html
-├── LICENSE
-├── README.md
+│   │   ├── index.html
+│   │   ├── LICENSE
+│   │   └──README.md
 ```
 
 ---
