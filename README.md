@@ -56,14 +56,14 @@ Il sito presenta le schede di **Alexander Nikolaevich Hell (Sasha)** e **Teresa 
 
 Se vuoi utilizzare e testare il progetto in locale, clonare il repository:
 ``` bash
-git clone [https://github.com/denisalecexe/new_card_Sasha_and_Teresa,git] (https://github.com/denisalecexe/new_card_Sasha_and_Teresa.git)
+git clone https://github.com/denisalecexe/new_card_Sasha_and_Teresa.git
 ```
 
 ---
 
 ## Contribuire al progetto
 
-Le pull request sono benvenute. Per modifiche sostanziali si pregra di aprire prima una segnalazione per discutere di cosa si desidera modificare.
+Le pull request sono benvenute. Per modifiche sostanziali si prega di aprire prima una segnalazione per discutere di cosa si desidera modificare.
 
 ---
 
